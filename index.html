@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--SEO-->
+    <meta name="description" content="StyleNicolle, un sitio web donde tus pestañas brillaran">
+    <meta name="keywords" content="pestañas, StyleNicolle">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--ICONO DE LA PAGINA-->
+    <link rel="icon" type="image/css" href="./imagenes/icono.jpg">
+    <!--CSS-->
+    <link rel="stylesheet" href="./estilos/style.css">
+    <!--TITULO DE LA PESTAÑA-->
+    <title>StyleNicolle</title>
+     <!--ICONOS-->
+     <script src="https://kit.fontawesome.com/bfe7a14966.js" crossorigin="anonymous"></script>
+     <!--ANIMACION-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body class="bg-light">
+    <!--HEADER DE LA PAGINA-->
+    <header class="container-fluid">   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2 fw-bold text-primary" href="index.html">StyleNicolle</a>
+                <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link" href="./secciones/nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./secciones/productos.html">Productos</a>
+                        <a class="nav-link" href="./secciones/servicios.html">Servicios</a>
+                        <a class="nav-link" href="./secciones/contactos.html">Contactos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--CUERPO DE LA PAGINA-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/mujer-pestañas-dos.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/mujer-pestañas-uno.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/mujer-pestañas-tres.png" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+     </div>
+      <section class="bg-light" id="section-inicio">
+          <h1 class="animate__animated animate__backInLeft">Una experiencia única para tus <span>Pestañas</span></h1>
+          <p class="animate__animated animate__backInRight">Somos artistas, tu <span>rostro</span> es mi lienzo<br>Tus pestañas mi <span>pasión</span></p>
+      </section>
+    <!--FOOTER DE LA PAGINA-->
+      <footer class="footer">
+        <div class="contenedor-footer__todo">
+            <h2>StyleNicolle © 2022</h2>
+            <p>Para mas informacion acerca de los nuevos productos, por favor siguenos en nuestras redes sociales</p>
+            <ul class="redes">
+                 <li><i class="fa-brands fa-facebook"></i><a href="">Facebook</a></li>
+                 <li><i class="fa-brands fa-instagram"></i><a href="">Intagram</a></li>
+                 <li><i class="fa-brands fa-twitter"></i><a href="">Twitter</a></li>
+            </ul>
+        </div>
+     </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
